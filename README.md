@@ -15,3 +15,6 @@ implementation. What changes between iterations of the loop?
 Is the asymptotic complexity of tail-recursive Fibonacci different from the
 non-tail-recursive version? Why, or why not? Add your answer, including your
 reasoning, to this markdown file.
+
+The asymptotic complexity of both are $n$ because they recursively call the functions the same number of times. The only difference between the two would be space complexity, 
+which favors the tail-recursive Fibonacci function because it limits the max stack depth used by the function. 
